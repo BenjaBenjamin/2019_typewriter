@@ -1,3 +1,26 @@
 .typewritten {
-    font-family: 'Special Elite', cursive;        
+  font-family: "Special Elite", cursive;
+}
+.hidden {
+  display: none;
+}
+.button {
+  height: 35vh;
+  width: 20vw;
+  font-size: 3rem;
+  text-align: center;
+  background-color: blue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: orange;
+  opacity: 0.8;
+}
+
+#type_text {
+  color: orange;
 }
